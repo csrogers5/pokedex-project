@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resources/scripts/styles/index.css">
+    <title>Pokedex</title>
+</head>
+<body onload= "handleOnLoad()">
+    <div class ="overlay"></div>
+    <div class ="header">
+        <button class ="home" onclick="handleHomeClick()"><img src = ./pokeball.png></button>
+        <div><img class="banner" src = ./pkmn.png></div>
+    </div>
+    <button class ="pagebutton1" onclick = "handlePageClick('previous')">⇦</button>
+    <button class ="pagebutton2" onclick = "handlePageClick('next')">⇨</button>
+    <div id ="app" class="table-container"></div>
+    <button class ="pagebutton1" onclick = "handlePageClick('previous')">⇦</button>
+    <button class ="pagebutton2" onclick = "handlePageClick('next')">⇨</button>
+
+    <a href="info.html"></a>
+    <script src="./index.js"></script>
+</body>
+</html>

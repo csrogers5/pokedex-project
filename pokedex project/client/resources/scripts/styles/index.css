@@ -1,0 +1,223 @@
+.home {
+    display: inline-block;
+    width: 150px; /* Set the width of the button */
+    height: 150px; /* Set the height of the button */
+    padding: 0; /* Remove padding */
+    border-radius: 8px;
+    border-color: white;
+    background: none; /* Remove background */
+    position: relative; /* Set position to relative to contain the image */
+    margin: 0.5%;
+}
+
+.home img {
+    display: block;
+    width: 100%; /* Make the image fill the button width */
+    height: 100%; /* Make the image fill the button height */
+    object-fit: cover; /* Maintain aspect ratio and cover the button */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.home:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24), 0 17px 50px 0 rgba(255, 255, 255, 0.19);
+}
+
+.banner
+{
+    width: 50%;
+    height: 50%;
+    left: 25%;
+    top: -160px;
+    position: relative;
+}
+
+body
+{
+    background-image: url("./pikachu.jpg");
+    background-size: 200px;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    margin: 0;
+    overflow-y: scroll;
+}
+
+
+.overlay
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    /* Set the background color with opacity */
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.overlay
+{
+    z-index: -1;
+}
+
+.header
+{
+    background-color: rgb(36, 35, 35);
+    border-radius: 4px;
+    height: 400px;
+}
+
+.infotable
+{
+    position: relative;
+    left: 42%;
+    top: -15px;
+}
+
+.pagebutton1
+{
+    position: relative;
+    left: 1%;
+    top: 10px;
+    font-size: xx-large;
+    background-color: white;
+}
+.pagebutton2
+{
+    position: relative;
+    left: 93%;
+    top: 10px;
+    font-size: xx-large;
+    background-color: white;
+}
+
+.pagebutton1:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pagebutton2:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.infotable td
+{
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-right: 150px;
+    padding-bottom: 20px;
+}
+
+.infobtn
+{
+    border-radius: 50%;
+    display: inline-block;
+    width: 150px; /* Set the width of the button */
+    height: 150px; /* Set the height of the button */
+    padding: 0; /* Remove padding */
+    border-color: none;
+    background: none; /* Remove background */
+    position: relative; /* Set position to relative to contain the image */
+}
+
+.infobtn img {
+    display: block;
+    width: 100%; /* Make the image fill the button width */
+    height: 100%; /* Make the image fill the button height */
+    object-fit: cover; /* Maintain aspect ratio and cover the button */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.infobtn:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.openball
+{
+    position: relative;
+    scale: 35%;
+    top: -400px;
+    left: -200px;
+}
+
+.infocard
+{
+    height: 535px;
+    width: 500px;
+    background-color: rgba(131, 2, 2, 0.808);
+    border: 5px solid black;
+    border-radius: 32px;
+    position: relative;
+    left: 1150px;
+    top: -1400px;
+}
+
+.pkmtable
+{
+    position: relative;
+    left: 1200px;
+    top: -120px;
+}
+
+.pkmtable td
+{
+    color: white;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 25px;
+}
+
+.normal-form
+{
+    display: block; 
+    object-fit: contain;
+    position: relative;
+    scale: 300%;
+    left: 850px;
+    top: 300px;
+}
+
+.shiny-form
+{
+    display: block;
+    object-fit: contain;
+    scale: 150%;
+    position: relative;
+    left: 1400px;
+    top: 375px;
+}
+
+.back
+{
+    
+    display: block; 
+    object-fit: contain;
+    position: relative;
+    top: -620px;
+    left: 10px;
+    font-size: xx-large;
+    background-color: white;
+}
+
+.back:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.info-field
+{
+    display: block; /* or inline-block */
+    object-fit: contain;
+    position: relative;
+    top: -2000px;
+    left: 0;
+}
+
+.info-page
+{
+    max-height: 1100px;
+}
+
